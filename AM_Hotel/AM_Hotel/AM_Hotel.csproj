@@ -144,10 +144,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Models\DoubleRoom.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Models\SingleRoom.cs" />
     <Compile Include="Models\SweetRoom.cs" />
+=======
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Guest.cs" />
+    <Compile Include="Models\User.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
