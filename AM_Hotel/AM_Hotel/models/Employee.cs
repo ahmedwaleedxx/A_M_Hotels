@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AM_Hotel.Models
 {
-    public class Employee
+    public class Employee : User
     {
     }
 }
