@@ -9,12 +9,22 @@ namespace AM_Hotel.Models
     public class User
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int userId {  get; set; }
-        public string userName { get; set; }
-        public string password { get; set; }
-        public string userEmail { get; set; }
-        public string mobileNumber { get; set; }
-        public string nationalID { get; set; }
+        public int Id { get; set; }
+        public int NationalId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        
+        public string PhoneNumber { get; set; }
 
+        public User(int id, int nationalId, string name, string email, string password, string phoneNumber)
+        {
+            Id = id;
+            NationalId = nationalId;
+            Name = name;
+            Email = email;
+            Password = password;
+            PhoneNumber = phoneNumber;
+        }
     }
-}
+    }
